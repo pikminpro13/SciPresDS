@@ -1,0 +1,29 @@
+.element{
+	width:250px;
+	height:250px;
+	border:1px solid black;
+}
+
+.atomic-number{
+	top:0;
+	left:0;
+	position:relative;
+	font-size:10pt;
+}
+
+.atomic-abbr{
+	text-align: center;
+	font-weight:bold;
+	font-size:22pt;
+}
+
+.atomic-name{
+	text-align:center;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.atomic-mass{
+	text-align: center;
+	font-size:10pt;
+}
