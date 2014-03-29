@@ -1,20 +1,119 @@
 .element{
-	width:250px;
-	height:250px;
+	width:125px;
+	height:125px;
 	border:1px solid black;
+	display: block;
+	float: left;
+	margin-right:27px;
+	margin-bottom:15px;
+
+
+	background: #e5f9e9; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #e5f9e9 25%, #ffa3fd 54%, #7a71f7 92%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(25%,#e5f9e9), color-stop(54%,#ffa3fd), color-stop(92%,#7a71f7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #e5f9e9 25%,#ffa3fd 54%,#7a71f7 92%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #e5f9e9 25%,#ffa3fd 54%,#7a71f7 92%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #e5f9e9 25%,#ffa3fd 54%,#7a71f7 92%); /* IE10+ */
+background: linear-gradient(135deg,  #e5f9e9 25%,#ffa3fd 54%,#7a71f7 92%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5f9e9', endColorstr='#7a71f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.element:hover{
+	cursor:pointer;
+	/*height:auto;
+	z-index:99;*/
+}
+
+/*Element Colors*/
+.element:nth-child(2n+1){
+	background: #f0f9ff; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f0f9ff 19%, #ccffcf 47%, #a1dbff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(19%,#f0f9ff), color-stop(47%,#ccffcf), color-stop(100%,#a1dbff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #f0f9ff 19%,#ccffcf 47%,#a1dbff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #f0f9ff 19%,#ccffcf 47%,#a1dbff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #f0f9ff 19%,#ccffcf 47%,#a1dbff 100%); /* IE10+ */
+background: linear-gradient(135deg,  #f0f9ff 19%,#ccffcf 47%,#a1dbff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.element:nth-child(3n+2){
+	background: #f0f9ff; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f0f9ff 19%, #d8f4ff 47%, #e57979 92%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(19%,#f0f9ff), color-stop(47%,#d8f4ff), color-stop(92%,#e57979)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #f0f9ff 19%,#d8f4ff 47%,#e57979 92%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #f0f9ff 19%,#d8f4ff 47%,#e57979 92%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #f0f9ff 19%,#d8f4ff 47%,#e57979 92%); /* IE10+ */
+background: linear-gradient(135deg,  #f0f9ff 19%,#d8f4ff 47%,#e57979 92%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#e57979',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.element:nth-child(5n+3){
+	background: #f0f9ff; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f0f9ff 15%, #ddd6fc 45%, #f8ff9b 92%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(15%,#f0f9ff), color-stop(45%,#ddd6fc), color-stop(92%,#f8ff9b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #f0f9ff 15%,#ddd6fc 45%,#f8ff9b 92%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #f0f9ff 15%,#ddd6fc 45%,#f8ff9b 92%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #f0f9ff 15%,#ddd6fc 45%,#f8ff9b 92%); /* IE10+ */
+background: linear-gradient(135deg,  #f0f9ff 15%,#ddd6fc 45%,#f8ff9b 92%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#f8ff9b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.element:nth-child(7n+5){
+	background: #f0f9ff; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f0f9ff 17%, #ffd69e 54%, #fcb799 92%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(17%,#f0f9ff), color-stop(54%,#ffd69e), color-stop(92%,#fcb799)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #f0f9ff 17%,#ffd69e 54%,#fcb799 92%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #f0f9ff 17%,#ffd69e 54%,#fcb799 92%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #f0f9ff 17%,#ffd69e 54%,#fcb799 92%); /* IE10+ */
+background: linear-gradient(135deg,  #f0f9ff 17%,#ffd69e 54%,#fcb799 92%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#fcb799',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.element:nth-child(11n+7){
+	background: #e5f9e9; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #e5f9e9 25%, #8eff9b 54%, #74bf82 92%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(25%,#e5f9e9), color-stop(54%,#8eff9b), color-stop(92%,#74bf82)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #e5f9e9 25%,#8eff9b 54%,#74bf82 92%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #e5f9e9 25%,#8eff9b 54%,#74bf82 92%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #e5f9e9 25%,#8eff9b 54%,#74bf82 92%); /* IE10+ */
+background: linear-gradient(135deg,  #e5f9e9 25%,#8eff9b 54%,#74bf82 92%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5f9e9', endColorstr='#74bf82',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+/*.element:hover > .element-info{
+	display:block;
+}*/
+
+.element-info{
+	display:none;
+	border:1px solid black;
+	background-color:chartreuse;
+	z-index:99;
+	width:300px;
+}
+
+.element:nth-child(4n){
+	margin-right:0;
+}
+
+.element > div {
+	position: relative;
 }
 
 .atomic-number{
-	top:0;
-	left:0;
-	position:relative;
+	top:2px;
+	left:3px;
+	/*position:relative;*/
 	font-size:10pt;
 }
 
 .atomic-abbr{
+	margin-top:20px;
+	margin-bottom:10px;
 	text-align: center;
 	font-weight:bold;
-	font-size:22pt;
+	font-size:36pt;
 }
 
 .atomic-name{
@@ -26,4 +125,8 @@
 .atomic-mass{
 	text-align: center;
 	font-size:10pt;
+}
+
+.clearfix {
+	clear: both;
 }
