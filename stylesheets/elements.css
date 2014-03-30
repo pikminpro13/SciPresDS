@@ -8,7 +8,7 @@
 	margin-bottom:15px;
 
 
-	background: #e5f9e9; /* Old browsers */
+background: #e5f9e9; /* Old browsers */
 background: -moz-linear-gradient(-45deg,  #e5f9e9 25%, #ffa3fd 54%, #7a71f7 92%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, right bottom, color-stop(25%,#e5f9e9), color-stop(54%,#ffa3fd), color-stop(92%,#7a71f7)); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(-45deg,  #e5f9e9 25%,#ffa3fd 54%,#7a71f7 92%); /* Chrome10+,Safari5.1+ */
