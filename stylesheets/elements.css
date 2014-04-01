@@ -84,7 +84,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5f9e9', end
 /*.element:hover > .element-info{
 	display:block;
 }*/
-
+.info-name{
+	text-align: center;
+	
+}
 .element-info{
 	display:none;
 	border:1px solid black;
