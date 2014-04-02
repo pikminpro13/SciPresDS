@@ -17,12 +17,12 @@ background: -ms-linear-gradient(-45deg,  #e5f9e9 25%,#ffa3fd 54%,#7a71f7 92%); /
 background: linear-gradient(135deg,  #e5f9e9 25%,#ffa3fd 54%,#7a71f7 92%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5f9e9', endColorstr='#7a71f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-
+}
 /*.element:hover{
 	cursor:pointer;
 	/*height:auto;
 	z-index:99;*/
-
+}*/
 
 /*Element Colors*/
 .element:nth-child(2n+1){
@@ -94,7 +94,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5f9e9', end
 }
 
 .element:nth-child(4n){
-	margin-right:0px;
+	margin-right:0;
 }
 
 .element > div {
