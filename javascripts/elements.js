@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.element').hover(function(){
-		$(this).find('.element-info').fadeToggle();
-	});
+	// $('.element').hover(function(){
+	// 	$(this).find('.element-info').fadeToggle();
+	// });
 });
